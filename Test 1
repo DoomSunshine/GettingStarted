@@ -1,0 +1,40 @@
+
+# TO DO : 
+# 1. display divisors of a given number
+# 2. append prime factors to an array and return it
+# 3 check on 45 (expects 3x3x5), google "while loop"
+# 4. take input on command line
+
+
+#Partially working. The logic is not correct
+
+def prime_factors(n):
+    for i in range(2, n):
+        if n % i == 0:
+            print("i = ", i)
+            print(i, " is divisor of ",n)
+            print("----")
+            
+            n == n / i
+            i == i - 1
+    
+res = prime_factors(45)
+print("prime factors res:", res)
+
+
+#Try to use while. Code is not working
+
+
+def prime_factors(n):
+     while n != 1
+           if n % i == 0:
+            print("i = ", i)
+            print(i, " is divisor of ",n)
+            print("----")
+            
+            n == n / i
+            i == i - 1
+  
+
+res = prime_factors(45)
+print("prime factors res:", res)
