@@ -24,10 +24,3 @@ res = prime_factors(45)
 print("prime factors res:", res)
 
 #Claude is the code taking input in the comand line? Thx to Miguel for explaining some stuff
-
-
-# In[21]:
-
-
-
-
