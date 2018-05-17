@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[25]:
-
-
 def prime_factors(n):
     i = 2
     temp = []
