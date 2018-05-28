@@ -13,8 +13,9 @@ def prime_factors(n):
         else:
             i += 1
     return temp
-res = prime_factors(45)
+
+number = int(input("Choose a number"))
+
+res = prime_factors(number)
 
 print("prime factors res:", res)
-
-#Claude is the code taking input in the comand line? Thx to Miguel for explaining some stuff
